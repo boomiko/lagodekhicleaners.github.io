@@ -1,0 +1,65 @@
+<html>
+    <head>
+        <link rel="shortcut icon" type="x-icon" href="316137274_107089388899472_3920502400675242238_n.jpg">
+        <title>lag.cleaning</title>
+        <meta name = "viewport" content ="width = device-width, initial-scale = -10">
+        <link rel ="stylesheet" href="style.css">
+ 
+    </head>
+<body onload="slider()">
+    <div class="banner">
+        <div class="slider">
+            <img src="img1.jpg" id="slideimg">
+        </div>
+        <div class="overlay">
+        </div>
+    <div class="navbar">
+        <img src="cleaning (2).png" class="logo">
+            <ul>
+                <li><a href ="home.html">გენერალური დალაგება</a></li>
+                <li><a href ="kitchen.html">სტანდარტული </a></li>  
+                <li><a href ="bathroom.html">რემონტის შემდგომ </a></li>
+                <li><a href ="bedroom.html">სარდაფი </a></li>
+                <li><a href ="acceptable.html">ფანჯრების წმენდა</a></li>
+                <li><a href ="https://www.facebook.com/profile.php?id=100087952323831">+599856275</a></li>  
+                <!-- <div align="center"><h1><a href="https://www.facebook.com/nino.batiashvili.71">ლინკი!!!</a></h1></div> -->
+         </ul>
+    </div> 
+        <div class="content">
+            <h1> დალაგების სერვისი ლაგოდეხის ტერიტორიაზე<br>SORTING SERVICE IN LAGODEKHI AREA</h1>
+            <p>ამ საიტზე თქვენ შეგიძლიათ გაიგოთ დალაგების ფასი და გამოიძახოთ დალაგების სერვისი ლაგოდეხის ტერიტორიაზე<br>On this website you can find out the prise of cleaning and on-callcleaning service in lagodekhi area</p>
+            <div>
+                <a href="https://www.facebook.com/profile.php?id=100087952323831"> 
+                    <button type="button" location.href='https://www.facebook.com/nino.batiashvili.71'><span></span>გაიგე მეტი</button>
+                </a> 
+                <a href="https://www.facebook.com/profile.php?id=100087952323831"> 
+                    <button type="button" location.href='https://www.facebook.com/nino.batiashvili.71'><span></span>დაგვიკავშირდი</button>
+                </a>
+            </div>
+        </div>
+    </div>
+     
+    <script>
+        var slideimg = document.getElementById("slideimg");
+        var images = new Array(
+            "img1.jpg",
+            "img2.webp",
+            "img3.jpeg",
+            "img4.webp");
+        
+        var len = images.length;
+        var i = 0;
+
+        function slider(){
+            if(i > len-1){
+                i = 0;
+            }
+            slideimg.src = images[i];
+            i++;
+            setTimeout('slider()',3000);
+        }
+    </script>
+
+</body>
+</html>
+<!-- ამ საიტზე თქვენ შეგიძლიათ გამოიძახოთ დალაგების სერვისი ლაგოდეხის ტერიტორიაზე -->
